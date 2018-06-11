@@ -92,7 +92,7 @@ def query5():
     con = sql.connect("database.db")
     con.row_factory = sql.Row
     cur = con.cursor()
-    cur.execute('select * from testtable1 where mag>? AND time > 17:17:17 ;', (a,))
+    cur.execute('select * from testtable1 where mag>? ;', (a,))
     rows5 = cur.fetchall()
     return render_template('home.html', rows5=rows5)
 
