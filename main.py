@@ -1,11 +1,11 @@
-import csv
-from datetime import date
+# import csv
+# from datetime import date
 from math import ceil
 
 from flask import Flask, render_template, request, url_for
-from numpy import var
-from sqlalchemy import DATETIME
-from werkzeug.utils import redirect
+# from numpy import var
+# from sqlalchemy import DATETIME
+# from werkzeug.utils import redirect
 
 app = Flask(__name__)
 import sqlite3 as sql
