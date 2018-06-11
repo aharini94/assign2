@@ -1,1 +1,1 @@
-pandas-0.20.3-cp34-cp34m-win32.whl
+pandas-0.20.3-cp34-cp34m-none-win32.whl
